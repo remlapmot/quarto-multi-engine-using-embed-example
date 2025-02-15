@@ -1,0 +1,7 @@
+---
+jupyter: python3
+---
+
+```{python}
+print("Hello World from Python")
+```

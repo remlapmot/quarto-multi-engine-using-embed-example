@@ -9,6 +9,7 @@ println("Hello World from Julia")
 ```{julia}
 #| include: false
 #| warning: false
+#| message: false
 import Pkg
 Pkg.add("Plots")
 ```

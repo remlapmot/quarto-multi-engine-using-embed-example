@@ -3,3 +3,4 @@ source .venv/bin/activate
 uv pip install nbstata jupyterlab matplotlib numpy
 
 quarto render
+deactivate

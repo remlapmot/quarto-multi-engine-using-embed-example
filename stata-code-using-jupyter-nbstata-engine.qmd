@@ -8,5 +8,6 @@ display "Hello World from Stata"
 
 ```{stata}
 *| fig-align: "center"
+*| fig-alt: "Plot of x cubed versus x."
 graph twoway function x^3, range(-10 10)
 ```

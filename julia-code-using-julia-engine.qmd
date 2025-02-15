@@ -5,3 +5,18 @@ engine: julia
 ```{julia}
 println("Hello World from Julia")
 ```
+
+```{julia}
+#| include: false
+#| warning: false
+import Pkg
+Pkg.add("Plots")
+```
+
+```{julia}
+#| fig-align: "center"
+using Plots
+x = range(-10, 10, length=1000)
+y = x .^ 3
+plot(x, y)
+```

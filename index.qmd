@@ -7,7 +7,7 @@ engine: knitr
 notebook-links: false
 ---
 
-::: {.panel-tabset}
+::: {.panel-tabset .nav-pills}
 ## R
 
 ```{r}

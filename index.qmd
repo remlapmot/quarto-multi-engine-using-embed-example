@@ -1,0 +1,28 @@
+---
+title: An effectively multi-engine Quarto document using the embed shortcode
+format:
+  html:
+    embed-resources: true
+engine: knitr
+---
+
+::: {.panel-tabset}
+## R
+
+```{r}
+print("Hello World, from R")
+```
+
+## Python
+
+{{< embed python-code-using-jupyter-python3-engine.qmd >}}
+
+## Stata
+
+{{< embed stata-code-using-jupyter-nbstata-engine.qmd >}}
+
+## Julia
+
+{{< embed julia-code-using-julia-engine.qmd >}}
+
+:::

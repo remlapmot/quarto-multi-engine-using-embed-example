@@ -3,7 +3,7 @@ engine: julia
 ---
 
 ```{julia}
-println("Hello World from Julia")
+println("Hello World, from Julia")
 ```
 
 ```{julia}

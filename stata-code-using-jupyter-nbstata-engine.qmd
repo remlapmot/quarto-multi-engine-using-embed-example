@@ -5,3 +5,8 @@ jupyter: nbstata
 ```{stata}
 display "Hello World from Stata"
 ```
+
+```{stata}
+*| fig-align: "center"
+graph twoway function x^3, range(-10 10)
+```

@@ -17,6 +17,8 @@ Pkg.add("Plots")
 ```{julia}
 #| fig-align: "center"
 #| fig-alt: "Plot of x cubed versus x."
+#| warning: false
+#| message: false
 using Plots
 x = range(-10, 10, length=1000)
 y = x .^ 3

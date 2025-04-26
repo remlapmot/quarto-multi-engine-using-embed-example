@@ -1,0 +1,15 @@
+---
+title: Test
+format:
+  html:
+    embed-resources: true
+jupyter: nbstata
+---
+
+```{stata}
+display "Hello, World!"
+```
+
+```{stata}
+di 1 + 1
+```

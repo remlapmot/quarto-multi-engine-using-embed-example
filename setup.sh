@@ -1,5 +1,5 @@
 # Important, this must be set globally, i.e. in .zprofile - so that pystata Python library can be found
-# export PYTHONPATH=/Applications/Stata/utilities
+export PYTHONPATH=/Applications/Stata/utilities
 
 # And within Stata - that must be picking up a Python installation with a libpython.dylib
 # i.e. `python query` must return something valid

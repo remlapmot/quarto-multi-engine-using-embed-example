@@ -8,3 +8,7 @@ python -m nbstata.install
 
 quarto render
 deactivate
+
+# restore from pyproject.toml and uv.lock
+# uv sync
+# Then activate

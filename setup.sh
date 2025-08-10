@@ -1,5 +1,5 @@
 # Important, this must be set globally, i.e. in .zprofile - so that Python can find the pystata package
-export PYTHONPATH=/Applications/Stata/utilities
+# export PYTHONPATH=/Applications/Stata/utilities
 
 uv venv --python 3.13
 source .venv/bin/activate
